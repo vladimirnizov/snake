@@ -1,0 +1,64 @@
+.header {
+    color: #fff;
+    padding: 5px 15px 5px 0px;
+    position: relative;
+  }
+  
+  .header>.score-block {
+    display: inline-block;
+  }
+  
+  .score-block>.score {
+    position: absolute;
+    right: 8px;
+    top: -5px;
+  }
+  
+  .score-block>.best-score {
+    position: absolute;
+    right: 8px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  .header>.logo {
+    display: inline-block;
+    padding-left: 15px;
+  }
+  
+  .container {
+    width: 400px;
+    position: relative;
+    display: block;
+    margin: auto;
+    background-color: #079992;
+
+  }
+  
+  .row {
+    height: 20px;
+  }
+  
+  .column {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+  
+  .start-button {
+    padding: 15px;
+    text-align: center;
+    background-color: #079992;
+    color: white;
+  }
+  
+  .start-button:hover {
+    opacity: 0.65;
+    cursor: pointer;
+  }
+
+  
+  .disable-clicks {
+    pointer-events: none;
+  }
+  
